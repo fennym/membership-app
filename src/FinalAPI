@@ -9,7 +9,7 @@ class App extends Component {
   }
 
   componentDidMount() {
-    fetch('https://api-dev1.bjs.com/api/v1/getMemberInfo',{
+    fetch('https://xxxxxxxxxxxxxxx',{
     
       method: 'POST',
       body: {
@@ -19,7 +19,7 @@ class App extends Component {
                 "q036_request_source": "B",
                 "q036_request_type": "C",
                 "q036_request_data": {
-                    "q036_member_number": "21140085504",
+                    "q036_member_number": "xxxxxxxxxx",
                     "q036_first_name": "",
                     "q036_last_name": ""
                 }
