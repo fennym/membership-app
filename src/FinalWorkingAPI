@@ -32,7 +32,7 @@ class App extends Component {
 
   getInfo = () => {
     
-    fetch('https://api-dev1.bjs.com/api/v1/getMemberInfo', {
+    fetch('-------------', {
     method: 'POST',
     headers: {
       Accept: 'application/json',
